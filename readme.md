@@ -16,7 +16,7 @@ $ npm install --global uti-cli
 $ uti --help
 
   Example
-    $ uti unicorn.jpg
+    $ uti unicorn.md
     net.daringfireball.markdown
 ```
 
