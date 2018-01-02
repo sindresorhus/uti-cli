@@ -5,7 +5,7 @@ const fileUti = require('file-uti');
 
 const cli = meow(`
 	Example
-	  $ uti unicorn.jpg
+	  $ uti unicorn.md
 	  net.daringfireball.markdown
 `);
 
