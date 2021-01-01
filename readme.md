@@ -1,4 +1,4 @@
-# uti-cli [![Build Status](https://travis-ci.org/sindresorhus/uti-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/uti-cli)
+# uti-cli
 
 > Get the [UTI](https://en.wikipedia.org/wiki/Uniform_Type_Identifier) (Uniform Type Identifier) of a file on macOS
 
