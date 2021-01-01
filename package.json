@@ -3,7 +3,10 @@
 	"version": "1.0.1",
 	"description": "Get the UTI (Uniform Type Identifier) of a file on macOS",
 	"license": "MIT",
-	"repository": "sindresorhus/uti-cli",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sindresorhus/uti-cli.git"
+	},
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -40,8 +43,14 @@
 		"meow": "^4.0.0"
 	},
 	"devDependencies": {
-		"ava": "*",
+		"ava": "^[object Promise]",
 		"execa": "^0.8.0",
-		"xo": "*"
-	}
+		"xo": "^[object Promise]"
+	},
+	"bugs": {
+		"url": "https://github.com/sindresorhus/uti-cli/issues"
+	},
+	"readme": "ERROR: No README data found!",
+	"homepage": "https://github.com/sindresorhus/uti-cli#readme",
+	"_id": "uti-cli@1.0.1"
 }
