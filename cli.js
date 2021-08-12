@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const fileUti = require('file-uti');
+import meow from 'meow';
+import {fileUtiSync} from 'file-uti';
 
 const cli = meow(`
 	Example
 	  $ uti unicorn.md
 	  net.daringfireball.markdown
-`);
+`, {
+	importMeta: import.meta,
+});
 
-console.log(fileUti.sync(cli.input[0]));
+console.log(fileUtiSync(cli.input[0]));
